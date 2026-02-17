@@ -1,4 +1,4 @@
-import type { Vector3 } from "../../types";
+import type { Vector3 } from "@types";
 
 export interface BedwarsCoreConfiguration {
 	generators: Generator[];

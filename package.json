@@ -2,15 +2,14 @@
 	"name": "open-bedwars",
 	"private": true,
 	"scripts": {
-		"build": "node build.js",
-		"dev": "npx nodemon",
-		"check": "npx biome check --write"
+		"start": "tsx src/main.ts",
+		"dev": "tsx watch src/main.ts",
+		"check": "biome check --write"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.0",
-		"@types/node": "^24.3.0",
-		"esbuild": "^0.25.9",
-		"nodemon": "^3.1.10",
-		"typescript": "^5.9.2"
+		"@biomejs/biome": "^2.4.2",
+		"@types/node": "^24.10.13",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
 	}
 }

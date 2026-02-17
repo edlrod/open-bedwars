@@ -10,8 +10,8 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": "src",
 		"paths": {
-			"@utils/*": ["utils/*"],
-			"@types/*": ["types/*"]
+			"@utils": ["utils"],
+			"@types": ["types"]
 		}
 	},
 	"include": ["src"]

@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
+import { getPosition, log, secondsToTicks, snbt } from "@utils";
 import BedwarsPlugin from "../../BedwarsPlugin";
-import { getPosition, log, secondsToTicks, snbt } from "../../utils";
 import type {
 	BedwarsCoreConfiguration,
 	Currency,
